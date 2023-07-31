@@ -12,7 +12,7 @@ from dash.dependencies import Input, Output
 from app import *
 from dash_bootstrap_templates import ThemeSwitchAIO
 
-app.py
+#app.py
 
 import dash
 
