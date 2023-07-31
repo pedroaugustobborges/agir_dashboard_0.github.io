@@ -18,7 +18,7 @@ import dash
 
 FONT_AWESOME = ["https://use.fontawesome.com/releases/v5.10.2/css/all.css"]
 
-app = dash.Dash(dashboard, external_stylesheets=FONT_AWESOME)
+app = dash.Dash(__name__, external_stylesheets=FONT_AWESOME)
 server = app.server
 app.scripts.config.serve_locally = True
 
